@@ -4,7 +4,12 @@
 num = input("Введите вещественное число: ")
 a = int(num[num.find(".")+1:len(num)])
 sum = 0
+
 while a > 0:
     sum = sum + a % 10
     a = a // 10
+b = float(num)//1
+while b > 0:
+    sum = sum + b%10
+    b = b // 10
 print(sum)
