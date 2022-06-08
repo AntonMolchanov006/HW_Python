@@ -13,6 +13,6 @@ for item in ls:
     elif(int(item) < minim):
         minim = int(item)
 
-print(maxim)
-print(minim)
+print(f'максимальное число равно: {maxim}')
+print(f'минимальное число равно: {minim}')
 
